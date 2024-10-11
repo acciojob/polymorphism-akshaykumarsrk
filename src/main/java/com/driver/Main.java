@@ -4,9 +4,9 @@ public class Main {
 
     public static void main(String[] args) {
         Product p = new Product();
-        p.product(2, 3);
-        p.product(2, 3, 4);
-        p.product(2.5, 2.5);
+        System.err.println(p.product(2, 3));
+        System.out.println(p.product(2, 3, 4));
+        System.out.println(p.product(2.5, 2.5));
     }
 
 }
