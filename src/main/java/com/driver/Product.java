@@ -2,6 +2,11 @@ package com.driver;
 
 public class Product {
 
+    public Product()
+    {
+        // default constructor
+    }
+
     public int product(int x, int y) {
         return x * y;
     }
